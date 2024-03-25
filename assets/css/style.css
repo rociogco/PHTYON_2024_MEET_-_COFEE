@@ -1,0 +1,96 @@
+*{
+    font-family: Madimi One;
+}
+body{
+    display: block;
+    margin: 0px;
+    border: 0;
+    padding:0;
+    font-family: arial;
+}
+header{
+    background-image: url(../img/bg-hero.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: Open sans;
+    text-shadow:0px 3px 6px black;
+    text-align: right;
+    color: white;
+}
+header h1{
+    font-size: 60px;
+}
+header h3{
+    font-size: 60px;
+    font-weight:lighter;
+}
+#proxima-charla {
+    background: #a4452c;
+    padding: 100px;
+    color: white;
+}
+#proxima-charla .wrapper {
+    width: 800px;
+    margin: auto;
+}
+.wrapper img{
+    width: 25%;
+}
+.wrapper .texto{
+    width:70%;
+    margin-left: 4%;
+}
+.wrapper img, .texto{
+    display: inline-block; /** hace que se vea side by side **/
+    vertical-align: middle;
+}
+#eventos{
+    text-align: center;
+    font-weight: bold;
+    padding:30px;
+
+}
+#eventos .foto{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 50px;
+}
+#eventos img{
+    height: 200px;
+    width: 250px;
+}
+#wework{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+footer i{
+    padding:10px;
+    color: white;
+    font-size: 32px;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color:grey;
+    overflow:hidden;
+}
+li{
+    display: inline;
+    float: left;
+}
+li a{
+    display: block;
+    color:azure;
+    text-align: center;
+    margin: 10px;
+}
